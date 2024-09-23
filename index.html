@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "page-blue":"#04016C",
+              "page-purple": "#4A16BD",
+              "page-dark-white":"#D9ECFF",
+              "page-sky":"#739FE8",
+              "page-dark-blue":"#4F18CA",
+              "page-grey": "#4E596B",
+              "page-white": "#FFFFFF",
+              "page-black": "#000000",
+              "page-pink": "#E441FF",
+              "page-light-blue": "#0A033C",
+            },
+          },
+           fontFamily: {
+           Righteous:["Righteous,sans-serif"],
+           Saira:["Saira, sans-serif"]
+          },
+          container: {
+            center: true,
+            padding: "2rem",
+            screens: {
+              lg: "1124px",
+              xl: "1124px",
+              "2xl": "1124px",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Tailwind landing page</title>
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/thumbnails/005/200/965/small/bookmark-black-color-icon-vector.jpg"
+      type="image/x-icon"
+    />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-Righteous">
+    <!-- Navigation/header part -->
+    <!-- header -->
+
+    <header>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1 mr-15">
+          <img src="assets/header 1.svg" alt="header logo" />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 text-page-black"
+        >
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Courses</li>
+          <li class="cursor-pointer">Contact</li>
+          <img src="assets/header 2.svg" alt="header image" />
+          <img src="assets/Login.svg" alt="login" />
+          <button type="button" class=" bg-page-dark-blue text-white rounded-md px-7 py-3">Sigup</button>
+        </ul>
+      </nav>
+    </header>
+
+    <!--hero section-->
+
+    <section class=" relative bg-page-dark-blue py-8 px-4">
+      <div class="container flex justify-center lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+         <!-- content part for hero section -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+        <h3 class="text-white mb-8 text-lg text-start uppercase">Successful coaches are visionaries</h3>
+        <h1 class="text-white text-5xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">Good <span class="text-blue-800">coaching</span> is</br> good teaching &</br> nothing else.</h1>
+        <div class="flex justify-center flex-wrap gap-5">
+           <button type="button" class=" m-3 p-3 border-2 rounded-md  text-white ">View Courses</button>
+           <button class="text-white">Get Free Consultation</button>
+          </div>
+        <div class="flex justify-start mt-8">
+        <input type="text" placeholder="What do you want to learn today?" class="shadow-md py-3 px-16 rounded-md transition duration-300 bg-page-white text-black">
+        <button type="button" class="bg-blue-900 text-white px-12 py-3 rounded-md">Search</button>
+        </div>
+
+        <div class="flex flex-1 flex-col items-center lg:items-center absolute right-80">
+         <img  src="assets/header line.svg" alt="line icon">
+          <h5 class="text-end text-white absolute left-20">Shyam</h5>
+          <p class="text-sm text-end text-white absolute left-16 top-8">In a coaching role, you ask the</br> questions and rely more on your </br>
+              staff, who become the experts, to provide the information.</p>
+             </div>
+       </div>
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                <img
+                class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:h-full md:w-full"
+                src="assets/brunette-woman-hugging-laptop 1.png" alt="hero icon">
+              </div>
+            
+       
+
+      
+            
+            </div>
+            <br>
+          <hr>
+          <br>
+          <div class="flex  justify-center gap-20">
+            <img src="assets/spot.svg" alt="spot icon">
+            <img src="assets/amzon.svg" alt="amzon icon">
+            <img src="assets/spot.svg" alt="spot icon">
+            <img src="assets/cisco.png" alt="cisco icon">
+            <img src="assets/logtech.svg" alt="logtech icon">
+            <img src="assets/amzon.svg" alt="amzon icon">
+          </div>
+         </section>
+         
+         <!--card part-->
+         <section class="bg-dark-white py-10 mb-20 ">
+         <div>
+          <img src="assets/circle.svg" alt="circle icon">
+          <h1 class="flex justify-center text-2xl gap-5">Featured <span class="text-blue-600"> Course</span></h1>
+          <h4 class="flex justify-center gap-3 uppercase">The feature courses are we invented our teaching part</h4>
+           </div>
+         <div class="w-50 grid grid-cols-3 gap-2">
+          <img src="assets/card 1.png" alt="cards">
+          <img src="assets/card 2.png" alt="cards">
+          <img src="assets/card 3.png" alt="cards">
+          <img src="assets/card 4.png" alt="cards">
+          <img src="assets/card 5.png" alt="cards">
+          <img src="assets/card 3.png" alt="cards">
+         <div class="flex flex-1 px-28 py-10 mr-10 ">
+          <button type="button" class=" bg-page-dark-blue justify-center  text-white rounded-md  px-7 py-3 absolute left-56">Explore courses</button>
+         </div>
+        </div> 
+       </section>
+<!--center part-->
+      <section class="relative">
+        <div class="h-45 m-10 p-40 bg-gradient-to-r from-page-sky to-page-dark-blue">
+          <h1 class="text-center text-white text-2xl">Why <span class="text-blue-800">learn</span> with our courses?</h1>
+          <p class="text-center text-white mb-5">We are providing the best courses and top classes.And extradinery placement training.....</p>
+          <img src="assets/Group 1000014985.png" alt="group icon">
+        </div>
+        <div>
+          <h1 class="text-center text-3xl">Top <span class="text-blue-900">Categories</span></h1>
+          <p class="text-center text-sm ">100+ unique online course list designs</p>
+        </div>
+        <div class="flex flex-1">
+        <div class="w-48 m-5 p-8 border-2  ">
+          <img class="mb-10" src="assets/div.features-box-image.png" alt="">
+          <img class="mb-7" src="assets/Digtal Marketing.png" alt="">
+          <img class="mt-5" src="assets/25 Courses.png" alt="">
+       </div>
+        <div class="w-48 m-5 p-8 border-2 ">
+         <img class="mb-10" src="assets/web box.png" alt="">
+         <img class="mb-8" src="assets/Web Development.png" alt="">
+         <img class="mt-5" src="assets/16 Courses.png" alt="">
+       </div>
+       <div class="w-48 m-5 p-8 border-2 ">
+         <img class="mb-10" src="assets/art.png" alt="">
+         <img class="mb-8" src="assets/Art & Humanities.png" alt="">
+         <img class="mt-5" src="assets/76 Courses.png" alt="">
+       </div>
+       <div class="w-48 m-5 p-8 border-2 ">
+       <img class="mb-10" src="assets/personal.png" alt="">
+         <img class="mb-8" src="assets/Personal Development.png" alt="">
+         <img class="mt-5" src="assets/22 Courses.png" alt="">
+       </div>
+        <div class="w-48 m-5 p-8 border-2">
+         <img class="mb-10" src="assets/IT.png" alt="">
+         <img class="mb-8" src="assets/IT and Software.png" alt="">
+         <img class="mt-5" src="assets/110 Courses.png" alt="">
+       </div>
+         <div class="w-48 m-5 p-8 border-2">
+         <img class="mb-10" src="assets/graphic.png" alt="">
+         <img class="mb-8" src="assets/Graphic Design.png" alt="">
+         <img class="mt-5" src="assets/85 Courses.png" alt="">
+       </div>
+        </div>
+</section>
+     <!--subscribe-->
+     <div class="relative">
+        <img src="assets/Subscribe.png" alt="Subscribe icon">
+        <img class="absolute  bottom-0" src="assets/Polygon light.svg" alt="Polygon icon">
+       </div>
+       <div class="relative">
+       <img class="absolute right-0 top-5" src="assets/Polygon Dark color.svg" alt="Polygon icon">
+        </div>
+       </div>
+      </section>
+
+      <!--video image-->
+      <section>
+         <div class="relative">
+          <img class="mt-28" src="assets/hero 2.png" alt="">
+          <img class="absolute  left-96 bottom-72" src="assets/play img.png" alt="video icon">
+          <img class="absolute right-0 bottom-0" src="assets/vedio img.png" alt="side icon">
+          </div>
+      </section>
+      <!--Testimonials part-->
+        <section>
+          <div>
+            <img class="mt-20 ml-8" src="assets/Ellipse 1217.png" alt="">
+            <h1 class="text-center text-3xl text-blue-700 mt-20">Testimonials</h1>
+            <p class="text-center text-sm mt-5">What our student say about us</p>
+          </div>
+          <div class="flex flex-1 justify-normal">
+          <div class="w-2/5 h-3/6 m-5  border-2 relative">
+            <img class="absolute top-0 right-44" src="assets/test img.png" alt="">
+            <p class="m-5 mt-12 text-sm text-blue-300">Such an amazing traniner and easily understand the entire</br> 
+            syllabus, and the guidence will be super and good to the way</br> of explaning.</p>
+           <img class="m-5" src="assets/star img.svg" alt="">
+          </div>
+           <div class="w-2/5 h-3/6 m-5  border-2 relative">
+            <img class="absolute top-0 right-44" src="assets/test img.png" alt="">
+            <p class="m-5 mt-12 text-sm text-blue-300">Such an amazing traniner and easily understand the entire</br> 
+            syllabus, and the guidence will be super and good to the way</br> of explaning.</p>
+           <img class="m-5" src="assets/star img.svg" alt="">
+          </div>
+           <div class="w-2/5 h-3/6 m-5  border-2 relative">
+            <img class="absolute top-0 right-44" src="assets/test img.png" alt="">
+            <p class="m-5 mt-12 text-sm text-blue-300">Such an amazing traniner and easily understand the entire</br> 
+            syllabus, and the guidence will be super and good to the way</br> of explaning.</p>
+           <img class="m-5" src="assets/star img.svg" alt="">
+          </div>
+          </div>
+         </section>
+         <div class="flex justify-end">
+          <img src="assets/Back Arrow.svg" alt=""> 
+          <img src="assets/right arrow.png" alt="">
+         </div>    
+         <!--footer-->
+         <footer class="bg-gradient-to-r from-page-pink to-blue-600 py-8">
+          <div class="card flex flex-wrap gap-20 mt-12">
+            <div>
+              <h1 class="ml-10 mb-2">Connect</h1>
+              <img src="assets/header 1.svg" alt="icon">
+              <p class="ml-7">Sri Jagannath Nivas,8-1-164/345/A/1,</br>
+Pragati Colony, Mailardevpally, Nawab</br>
+Saheb Kunta, Hyd, 500005</p>
+            </div>
+            <div>
+              <ul>
+              <h1 class="text-2xl mb-2">Classes</h1>
+              <li>Classroom courses</li>
+              <li>Virtual classroom courses</li>
+              <li>E-learning courses</li>
+              <li>Video Courses</li>
+              <li>Offline Courses</li>
+              </ul>
+            </div>
+             <div>
+              <ul>
+              <h1 class="text-2xl mb-2">Community</h1>
+              <li>Learners</li>
+              <li>Parteners</li>
+              <li>Developers</li>
+              <li>Transactions</li>
+              <li>Blog</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <h1 class="text-2xl mb-2">Quick links</h1>
+                <li>Home</li>
+                <li>Professional Education</li>
+                <li>Courses</li>
+                <li>Admissions</li>
+                <li>Testimonial</li>
+                <li>Programs</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <h1 class="text-2xl mb-2">More</h1>
+                <li>Press</li>
+                <li>lnvestors</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li>Help</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+           </div>
+          
+          <div class="flex justify-center gap-5">
+            <img src="assets/Instagram.svg" alt="Instagram">
+            <img src="assets/WhatsApp.png" alt="WhatsApp">
+            <img src="assets/Twitter.png" alt="Twitter">
+            <img src="assets/LinkedIn.svg" alt="LinkedIn">
+            <img src="assets/YouTube.svg" alt="YouTube">
+          </div>
+          <div>
+             <p class="text-sm flex justify-center mt-3 text-white">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+          </div>
+</footer>
+
+
+         
+         
+    </body>       
+</html>
+ 
+       
